@@ -13,6 +13,9 @@ The building specifications include the following:
 - Address of the area (Address)
 - Price in dollars (Price(USD))
 In this dataset, some houses do not have addresses and the area of ​​some houses is entered incorrectly (they have very large values). For this purpose, we also need to manage these items and remove them from our dataset.
+# simple linear regression
+In the first step, we tried to build a model with simple linear regression. We first tried the area column and then the room. The evidences show that we cannot find a good model to predict apartment prices with simple linear regression through a single column.
+
 
 ## Classification
 
