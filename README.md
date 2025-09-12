@@ -13,9 +13,11 @@ The building specifications include the following:
 - Address of the area (Address)
 - Price in dollars (Price(USD))
 In this dataset, some houses do not have addresses and the area of ​​some houses is entered incorrectly (they have very large values). For this purpose, we also need to manage these items and remove them from our dataset.
-# simple linear regression
+### Simple Linear Regression
 In the first step, we tried to build a model with simple linear regression. We first tried the area column and then the room. The evidences show that we cannot find a good model to predict apartment prices with simple linear regression through a single column.
-
+### Multiple Linear Regression
+In the second try we use Multiple Linear Regression in three test. First with 2 column (Area and Address), second 3 column(Area, Address and Room) and third all column (Area, Address, Room, Parking, Elevator and Warehouse).
+All tests are unsuccessful and results are about 55%. This shows that Multiple Linear Regression is not as successful as Simple Linear Regression.
 
 ## Classification
 
