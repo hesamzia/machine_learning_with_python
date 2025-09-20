@@ -4,7 +4,7 @@ In this repository, we try to solve some projects in the field of machine learni
 
 ## Regression
 For this project, after viewing the previous data (data on approximately 4000 apartments in a city) and its results, I found so many bugs in the old data that I felt I needed better data to test better. So, after finding new data, I moved the old data and all the work we had done in the notebook to the folder back and decided to start from scratch with the new data. We will continue with the new data and hope to see the desired training results.
-we used the King County Housing Dataset from Kaggle that includes homes sold between May 2014 and May 2015, features 21 columns, and over 21,000 entries شnd it is saved in a cvs file in the data folder called kc_house_data.cvs.
+we used the King County Housing Dataset from Kaggle that includes homes sold between May 2014 and May 2015, features 21 columns, and over 21,000 entries and it is saved in a cvs file in the data folder called kc_house_data.cvs.
 The data has integer and float data types, some of which probably need to be changed. Also, at first glance, three columns are missing data, which need to be further examined and managed. The columns of data invludes :
 - id : Unique identifier for a house
 - date : Date house was sold (2014,2015)
@@ -28,11 +28,8 @@ The data has integer and float data types, some of which probably need to be cha
 - sqft_living15 : The square footage of interior housing living space for the nearest 15 neighbors
 - sqft_lot15 : The square footage of the land lots of the nearest 15 neighbors
 
-### Simple Linear Regression
-
-### Multiple Linear Regression
-
-### New Data for Refression
+For this project, we used the King County Housing dataset from Kaggle, which includes homes sold between May 2014 and May 2015, 21 columns, and over 21,000 entries. We intended to use the features of this dataset to estimate price in dollars, but in this experiment, we were not looking for the best formula for this purpose, but rather to show the way of thinking and the path to the model, as well as different regression methods, and also to test some of the features of Python in this context.
+You can see our research on this topic in the file ML_With_python_Regression.ipynb.
 
 ## Classification
 
