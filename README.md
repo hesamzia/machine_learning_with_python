@@ -24,6 +24,7 @@ Our workflow includes 7 steps, each of which is explained in detail in the file 
 5. Model
 6. Evaluation
 7. Insights and Recommendations
+
 We have improved the results in three stages with changes in data engineering, which are detailed in the file in question.
 
 ## clustering
