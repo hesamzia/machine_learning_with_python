@@ -11,7 +11,7 @@ You can see our research on this topic in the file ML_With_python_Regression.ipy
 
 ## Classification
 For each of the classification methods, we had considered different projects.
-### K-Nearest Neighbors (KNN) 
+### K-Nearest Neighbors (KNN) Classification
 We tried to do this project with walking through a full ML workflow with our selected dataset using KNN(K-Nearest Neighbors). We wanted to predict the primary hashtag category of an Instagram post based on engagement metrics and traffic sources. 
 Our input included numeric engagement and traffic features per post and our output is predicted hashtag category (top 5 hashtags + “Other”).
 The results help optimize posting strategy and predict content popularity by understanding what types of content users engage with.
@@ -26,5 +26,9 @@ Our workflow includes 7 steps, each of which is explained in detail in the file 
 7. Insights and Recommendations
 
 We have improved the results in three stages with changes in data engineering, which are detailed in the file in question.
+
+### Decision Tree Classification
+We tried to predict whether a passenger in titanic survived using passenger attributes (class, age, sex, fare, family, embarkation, etc.). We downloaded from Kaggle train.csv file and uesd it and used a workflow like and we used the same workflow as in the previous part. 
+The steps of this experiment, along with complete explanations and comments, are available in the Predicting_Passenger_Survival_Titanic_Using_Decision_Tree_Classification.ipynb file.
 
 ## clustering
