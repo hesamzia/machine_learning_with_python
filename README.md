@@ -32,3 +32,8 @@ We tried to predict whether a passenger in titanic survived using passenger attr
 The steps of this experiment, along with complete explanations and comments, are available in the Predicting_Passenger_Survival_Titanic_Using_Decision_Tree_Classification.ipynb file.
 
 ## clustering
+
+## Services
+
+If you like this project, I also offer professional **data cleaning and analysis services on Fiverr**:  
+[Hire me on Fiverr](https://www.fiverr.com/hesamzia/clean-and-analyze-your-data)
