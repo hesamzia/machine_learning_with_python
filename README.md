@@ -35,7 +35,7 @@ The steps of this experiment, along with complete explanations and comments, are
 We tried to predict if a client will subscribe to a term deposit (target = y) based on demographic and campaign features. we used Features from Bank Marketing dataset (age, job, marital, education, default, balance, housing, loan, contact, day, month, duration, campaign, pdays, previous, poutcome)
 Why Logistic Regression:
 - Binary classification problem (yes/no).
-- Interpretable coefficients, handles categorical/numeric features well.
+- Interpretable coefficients, handles categorical/numeric features well.<br/>
 The steps of this experiment, along with complete explanations and comments, are available in the Logistic_Regression_for_Customer_Conversion_Prediction_in_Bank_Marketing.ipynb file.
 
 
