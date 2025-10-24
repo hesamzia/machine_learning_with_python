@@ -31,6 +31,14 @@ We have improved the results in three stages with changes in data engineering, w
 We tried to predict whether a passenger in titanic survived using passenger attributes (class, age, sex, fare, family, embarkation, etc.). We downloaded from Kaggle train.csv file and uesd it and used a workflow like and we used the same workflow as in the previous part. 
 The steps of this experiment, along with complete explanations and comments, are available in the Predicting_Passenger_Survival_Titanic_Using_Decision_Tree_Classification.ipynb file.
 
+### Logistic Regression Classification
+We tried to predict if a client will subscribe to a term deposit (target = y) based on demographic and campaign features. we used Features from Bank Marketing dataset (age, job, marital, education, default, balance, housing, loan, contact, day, month, duration, campaign, pdays, previous, poutcome)
+Why Logistic Regression:
+- Binary classification problem (yes/no).
+- Interpretable coefficients, handles categorical/numeric features well.
+The steps of this experiment, along with complete explanations and comments, are available in the Logistic_Regression_for_Customer_Conversion_Prediction_in_Bank_Marketing.ipynb file.
+
+
 ## clustering
 
 ## Services
