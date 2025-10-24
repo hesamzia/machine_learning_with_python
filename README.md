@@ -36,6 +36,7 @@ We tried to predict if a client will subscribe to a term deposit (target = y) ba
 Why Logistic Regression:
 - Binary classification problem (yes/no).
 - Interpretable coefficients, handles categorical/numeric features well.<br/>
+
 The steps of this experiment, along with complete explanations and comments, are available in the Logistic_Regression_for_Customer_Conversion_Prediction_in_Bank_Marketing.ipynb file.
 
 
