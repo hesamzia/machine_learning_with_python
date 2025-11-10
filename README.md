@@ -39,6 +39,27 @@ Why Logistic Regression:
 
 The steps of this experiment, along with complete explanations and comments, are available in the Logistic_Regression_for_Customer_Conversion_Prediction_in_Bank_Marketing.ipynb file.
 
+### SVM Classification
+We tried to predict 
+Project Overview: Wine Quality Classification (SVM)  the quality of red wine based on its physicochemical properties (e.g., acidity, sugar, pH, alcohol). we used the dataset winequality-red.csv comes from the UCI Machine Learning Repository. Each record represents a wine sample tested in a Portuguese wine lab, with 11 numeric input variables and one quality score (integer between 3 and 8).
+Our goal was to build an SVM-based classification model that automatically categorizes each wine into one of three classes:
+| Category | Description | Label |
+| :- | :- | :- |
+| Low | Quality ≤ 5 | 0 |
+| Medium | Quality = 6 | 1 |
+| High | Quality ≥ 7 | 2 |
+
+why we used SVM in the Wine Quality Classification project:
+- Handles nonlinear relationships – captures complex patterns with RBF kernel.
+- Good for small/medium datasets – efficient with our wine data size (~1,500 samples).
+- Robust to outliers – focuses on boundary samples (support vectors).
+- Maximizes class separation margin – improves generalization and reduces overfitting.
+- Effective with overlapping classes – suits wine data where class boundaries blur.
+- Mathematically stable and well-founded – reliable optimization approach.
+- Supports multiclass classification – easily extended with one-vs-rest (OvR).
+- Strong baseline for tabular numeric features – fits structured physicochemical data well.
+The steps of this experiment, along with complete explanations and comments, are available in the Wine_recognition_Using_SVM_Classification.ipynb file.
+
 
 ## clustering
 
