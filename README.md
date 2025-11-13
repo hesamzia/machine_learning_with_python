@@ -87,6 +87,28 @@ CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)
 
 The steps of this experiment, along with complete explanations and comments, are available in the Mall_Customers_K_Means_Clustering.ipynb file.
 
+### Hierarchical
+Hierarchical clustering is a method that builds a hierarchy (tree structure) of clusters instead of assigning data points directly to a fixed number of groups.
+It works by either merging small clusters step by step (agglomerative) or splitting large ones (divisive) until all data points form a hierarchy.
+The result is shown as a dendrogram, a tree-like diagram that helps you decide how many clusters to choose visually.
+Project Mall Customers – Hierarchical Clustering aims to use unsupervised machine learning — specifically Hierarchical Clustering — to automatically group customers based on their Annual Income and Spending Score.
+
+Why Hierarchical Clustering :
+- No need to predefine the number of clusters : Unlike K-Means, you don’t have to guess how many customer groups exist beforehand — the dendrogram visually shows the most natural number of clusters.
+
+- Visual and interpretable structure : It builds a tree-like hierarchy (the dendrogram) that helps you see how customers merge or split at different levels — giving deeper insights into relationships among groups.
+
+- Good for smaller to medium datasets : The Mall Customers dataset (~200 rows) is perfectly sized for Hierarchical Clustering, which can become slow with very large datasets.
+
+- Captures nested relationships : It can reveal subgroups within clusters — for instance, “high spenders” can further split into “young professionals” and “older luxury buyers”.
+
+- No randomness or initialization sensitivity : Unlike K-Means, which depends on random centroids and can yield different results per run, Hierarchical Clustering is deterministic and consistent.
+
+Dataset: Mall_Customers.csv
+CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)
+The steps of this experiment, along with complete explanations and comments, are available in the Mall_Customers_Hierarchical_Clustering.ipynb file.
+
+
 ## Services
 
 If you like this project, I also offer professional **data cleaning and analysis services on Fiverr**:  
