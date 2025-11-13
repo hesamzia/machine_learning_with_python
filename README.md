@@ -40,7 +40,7 @@ Why Logistic Regression:
 The steps of this experiment, along with complete explanations and comments, are available in the Logistic_Regression_for_Customer_Conversion_Prediction_in_Bank_Marketing.ipynb file.
 
 ### SVM Classification
-We tried to predict 
+We tried to predict Wine Quality.
 Project Overview: Wine Quality Classification (SVM)  the quality of red wine based on its physicochemical properties (e.g., acidity, sugar, pH, alcohol). we used the dataset winequality-red.csv comes from the UCI Machine Learning Repository. Each record represents a wine sample tested in a Portuguese wine lab, with 11 numeric input variables and one quality score (integer between 3 and 8).
 Our goal was to build an SVM-based classification model that automatically categorizes each wine into one of three classes:
 | Category | Description | Label |
@@ -62,6 +62,30 @@ The steps of this experiment, along with complete explanations and comments, are
 
 
 ## clustering
+- Clustering is an unsupervised machine learning technique that automatically groups data points into clusters (or segments) based on their similarity.
+- It doesn’t use predefined labels — instead, it finds patterns or natural structures in the data.
+- The goal is to make points within a cluster as similar as possible and points between clusters as different as possible.
+
+### K-Means
+- K-Means is a popular clustering algorithm that divides data into K distinct groups based on feature similarity.
+- It works by:
+    - Choosing K cluster centers (centroids) randomly.
+    - Assigning each data point to the nearest centroid (based on distance, usually Euclidean).
+    - Recalculating centroids as the average of all points in each cluster.
+    - Repeating steps 2–3 until centroids stabilize (no significant change).
+- The result: K-Means finds compact, well-separated clusters — for example, grouping mall customers into similar spending and income profiles.
+
+Project "Customer Segmentation using K-Means Clustering" Overview: We try to Segment mall customers into distinct groups based on their behavior — mainly spending patterns, income, and age — to help the business understand customer types (e.g., low spenders, medium spenders, high spenders)
+
+Why K-Means:
+- Unsupervised learning method (no labels like “survived” or “yes/no”).
+- Groups data based on similarity.
+- Helps identify patterns and market segments automatically.
+- Simple, efficient, and commonly used in marketing analytics.
+Dataset: Mall_Customers.csv
+CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)
+
+The steps of this experiment, along with complete explanations and comments, are available in the Mall_Customers_K_Means_Clustering.ipynb file.
 
 ## Services
 
