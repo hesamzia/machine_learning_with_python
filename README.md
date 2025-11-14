@@ -108,6 +108,35 @@ Dataset: Mall_Customers.csv
 CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)
 The steps of this experiment, along with complete explanations and comments, are available in the Mall_Customers_Hierarchical_Clustering.ipynb file.
 
+### DBSCAN
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is an unsupervised clustering algorithm that groups together points that are closely packed (high density) and marks points in low-density regions as outliers/noise.
+It works based on two parameters:
+    - eps → the radius around a point
+    - min_samples → minimum number of points required to form a dense region
+A cluster is formed when many points fall within each other's eps-radius.
+
+DBSCAN automatically:
+    - Groups dense regions of points into clusters
+    - Leaves isolated points as noise/outliers
+    - Finds clusters of any shape, unlike K-Means which only finds circular clusters
+    - Detects anomalies naturally because they don’t belong to any dense region
+
+Why Use DBSCAN in This Project?
+DBSCAN is a great method to add to your clustering portfolio because:
+- No need to specify the number of clusters
+Unlike K-Means, DBSCAN discovers the number of clusters automatically.
+- Identifies outliers
+DBSCAN can find customers that don't belong to any group (e.g., extremely high spenders).
+- Works with non-linear cluster shapes
+For customer behavior analysis, clusters may not be circular — DBSCAN handles this naturally.
+- Robust to noisy data
+If the dataset has unusual spending behaviors or scattered points, DBSCAN handles them better than K-Means or Hierarchical.
+- Good complement to the previous two clustering methods
+
+Dataset: Mall_Customers.csv
+CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)
+The steps of this experiment, along with complete explanations and comments, are available in the Mall_Customers_DBSCAN_Clustering.ipynb file.
+
 
 ## Services
 
